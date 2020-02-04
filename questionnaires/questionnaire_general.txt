@@ -1,0 +1,45 @@
+ Questionnaire général 
+
+
+Ce questionnaire à pour but de préparer des ateliers pour vous … 
+Aucune des réponses ne seront communiquées, anonyme.
+Mettre -> je ne sais pas/ne pas répondre
+
+1. As-tu accès à internet ? (supervisé ?) Si oui, depuis quel âge ? Comment as-tu appris à y aller (seul, famille, professeurs) ?
+2. Quel moteur de recherche utilises-tu ? tu sais ce que c’est ? Ou/comment fais-tu tes recherches ?
+3. Accès à : pc, tel, tablette (perso ou partagé). Si oui, est-il protégé par un mdp ? Accès limité ?
+4. As-tu un compte sur des RS (Insta, fb, snap, tik tok, twitter) ? (infos : nom, âge etc., bonnes infos ?) Tes parents le savent-ils ? 
+5. As-tu une adresse mail ? Usage : perso, collège ?
+6. Joue aux jeux vidéos, en ligne ?  Chat ?
+7. Téléchargements et accès demandés au téléchargement ? Télécharges-tu des fichiers en ligne seuls ? Aide des parents ?
+8. Sais-tu ce qu’est un Antivirus ? si oui, un sur l’ordi ? 
+
+
+Ateliers choisis : 
+ /!\ Relier les ateliers à problématique 
+Privacy (Cerise,Benjamin):
+	-> Expliquer ce qu’est une donnée/cookie/autorisations données (VP1 à revoir, VP6)
+	-> VP2 (intégrer VP4 avec demande d’ami inconnu, à voir avec Spams ?)
+	-> Revoir VP7, propagation des données
+Password (Cerise,Clarisse):
+	-> Fusion P1 et P2
+	-> P3 (suite de P1 et P2) + voir S4Crypto/Stegano (Emma, Patrick):
+	-> C1
+	-> C2 
+	-> C3 (à voir pour l’âge)
+	-> C7Social Engineering (Clarisse, Benjamin):
+	-> S1 + Cerise
+	-> S3 (voir les idées/comparer efficacité des ateliers en fonction de comment ils sont implémentés)
+
+- Site web --> Emma
+- Questionnaire général --> Emma
+- Questionnaires par ateliers --> all
+- Vidéo (programmation) --> all
+
+------------------------------------------------------------------------------
+Questions pour ateliers :
+* Tu as un exposé à faire sur… sur quel site cherches-tu ?
+* Sais-tu ce qu’est un virus informatique ? Tu en as déjà eu ? (pas la grippe) 
+* Nb amis, personnes inconnues ? 
+
+
