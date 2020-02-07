@@ -1,0 +1,31 @@
+Questionnaire Social Engineering
+
+- Combien d'adresses mail as-tu ?
+	- 0
+	- 1
+	- 2
+	- autre : ...
+
+- Sais-tu ce qu'est un spam ? Si oui, explique-le en 1 ou 2 phrases.
+
+- As-tu déjà reçu des mails publicitaires ?
+	- Jamais
+	- 1 fois
+	- Plusieurs fois
+	- Très souvent
+
+- Sais-tu comment faire en sorte de ne plus les recevoir ? Si oui, comment ?
+
+- Lorsque tu quittes ton ordinateur (pour faire une pause ou autre), fermes-tu ou vérouilles-tu ta session ?
+
+- Avant de quitter une application (mail, facebook), est-ce que tu te déconnectes ?
+	- Jamais
+	- De temps en temps
+	- Souvent
+	- Toujours
+ --> pourquoi ?
+
+- Tu trouves une clé USB par terre, que fais-tu :
+	- je la branche sur un ordinateur pour voir à qui elle appartient
+	- je la donne à un adulte
+	- je la laisse par terre
