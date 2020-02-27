@@ -2,6 +2,7 @@
 
 1. Objectif 
 Cet atelier a pour but de faire comprendre la notion de secret partagé et d'échange confidentiel grace à un petit atelier ludique.
+Il permet aussi chez l'enfant de faire comprendre que lors de l'échange de messages on ne peut pas toujours faire confiance à celui au celle transportant ce message. Il faut donc dans certains cas avoir recours à des méthodes de protection des données.
 
 2. Matériel 
 Une paire de petit cadenas et une boîte par petits groupes de réflexion (3/4 élèves)
@@ -22,4 +23,5 @@ L'élève A enlève son cadenas à l'aide de sa clef et le refait passer à l'é
 - Fournir deux cadenas et une boîte opaque à chaque groupe de réflexion.
 - Expliquer la problématique de confiance autour de l'élève transporteur.
 - Laisser les élèves réfléchir autour de cet atelier.
-- expliquer la solution aux élèves.
+- Expliquer la solution aux élèves.
+- Faire comprendre l'intérêt des solutions de sécurisation des échanges de messages dans les systems modernes (médium non fiable/publique)
