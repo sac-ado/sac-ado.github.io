@@ -1,7 +1,7 @@
 #Puzzle de Merkle
 
 1. Objectif
-Cet atelier a pour but d'aborder les notions de secret partagé par un canal public, et de complexité pour un attaquant de trouver le secret.
+Cet atelier a pour but d'aborder les notions de secret partagé par un canal public, et de complexité pour un attaquant de trouver le secret. Cela est très utilisé aujourd'hui pour partager des informations via Internet de manière sécurisée. Les méthodes de chiffrement abordées dans l'atelier C1 repose sur l'échange aupréalable d'une clef. Cet atelier ainsi que l'atelier C3 proposent d'aborder des méthodes d'échanges sans ce prérequis, ce qui est le cas sur Internet, où l'on n'a pas accès à un canal sécurisé pour partager une clef. Les méthodes proposées ici permettent par exemple d'utiliser un canal public pour échanger une clef de chiffrement.
 
 2. Matériel
 Puzzles à imprimer, et ciseaux pour les découper. Eventuellement une boîte par puzzle, ou les arranger par tas.
@@ -12,12 +12,8 @@ Si Eve a pu voir tous les puzzles envoyés, ainsi que l'identifiant retourné pa
 Cette méthode permet d'obtenir une clef secrète partagée entre Alice et Bob, sans que personne d'autre ne puisse l'obtenir rapidement. Il suffit de recommencer l'opération si une clef a été compromise par exemple.
 
 4. Déroulement
--
-- Imprimmer et découper les puzzles.
-- Deux élèves jouent le rôle d'Alice et Bob. Un espace (une table par exemple) représente le médium de communication que tout le monde peut voir. Le reste de la classe joue le role d'Eve (par petit groupe, individuellement, au choix). 
-- Bob pose prend tous les puzzles et les pose sur la table (pour simuler l'étape de création). Toute la classe peut les voir. Alice les prend, et chaque Eve en a un exemplaire (copie de ce qui est vu sur le médium).
-- Alice choisi un puzzle et le résoud, sans que personne ne le voie. Elle écrit ensuite l'identifiant du puzzle sur un papier et le pose sur la table. A cette étape, s'assurer que les enfants comprenne que Alice et Bob savent tous les deux la clef à utiliser. 
-- Chaque Eve essaye de retrouver la clef en résolvant les puzzle. Par exemple chronométrer les groupes pour déterminer les plus rapides. 
-- Montrer que il faut en moyenne plusieurs essais pour trouver la clef. Plus il y aura de puzzle, plus ce sera long, et que Alice et Bob ont sûrement eu le temps de changer de clefs entre temps.
-
-- Variante : par petit groupe les élèves doivet trouver comment utiliser les puzzle, et l'enseignant joue le rôle d'Eve pour vérifier s'ils ont la bonne méthode.
+- Imprimmer et découper les puzzles. Expliquer ce que contiennent les puzzles : une clé et un identifiant.
+- Deux élèves/intervenants jouent le rôle d'Alice et Bob. Bob envoit les puzzles, et garde un exemplaire des puzzles pas découpés. Alice les récpère, choisi un puzzle, le résoud, et envoi l'identifiant. Les envois se font sur une table ou par un facteur, les enfants doivent comprendre que tout le monde peut voir les messages qui y passent. A ce moment, s'assurer que les enfants comprennent que Alice et Bob peuuvent utiliser la même clé (par exemple pour un code Vigenère).
+- Maintenant, les élèves par petit groupe jouent le rôle d'Eve. Avec un exemplaire des puzzles pour chaque groupe, ils doivent retrouver la clé utilisée en résolvant les puzzles.
+- Certains groupes y arriveront du premier coup, d'autre devront résoudre tous les puzzles. En moyenne, il faut plusieurs essais pour y arriver, et chaque essai est d'autant plus long que les puzzles seront compliqués et nombreux. 
+- Conclure sur la notion de complexité, cette méthode s'appuie sur le temps nécessaire à l'attaquant pour voler la clé afin de partager une information secrète entre plusieurs personnes. Bob peut envoyer de nouveaux puzzles pour changer de clé si un attaquant trouve la clé. Aujourd'hui, un ordinateur peut générer beaucoup de puzzles très rapidement, mais les programmes utilisés pour les découper rendent les programmes très difficiles à résoudre en grande quantité. 
