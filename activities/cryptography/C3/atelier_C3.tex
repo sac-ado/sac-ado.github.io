@@ -1,0 +1,144 @@
+\documentclass[a4paper]{article}
+ 
+\usepackage{lipsum}
+\usepackage[a4paper, total={7in, 9in}]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usepackage[explicit]{titlesec}
+\usepackage{array}
+\usepackage{tabularx}
+
+\titleformat{\section}
+  {\normalfont\LARGE\bfseries}
+  {}
+  {0em}
+  {{\titlerule[2pt]}\\[0.1em]#1}
+  [\vspace{0.2em}{\titlerule[2pt]\vspace{1em}}]
+
+\titleformat{\subsection}
+  {\normalfont\Large\bfseries}
+  {}%{\thesubsection}
+  {0em}%{1em}
+  {#1}
+  [{\titlerule[1.5pt]}\vspace{0.5em}]
+
+\titleformat{\subsubsection}
+  {\normalfont\bfseries}
+  {}%{\thesubsection}
+  {0em}%{1em}
+  {#1}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\newcommand\score[2]{%
+  \pgfmathsetmacro\pgfxa{#1 + 1}%
+  \tikzstyle{scorestars}=[star, star points=5, star point ratio=2.25, draw, inner sep=1.3pt, anchor=outer point 3]%
+  \begin{tikzpicture}[baseline]
+    \foreach \i in {1, ..., #2} {
+      \pgfmathparse{\i<=#1 ? "yellow" : "gray"}
+      \edef\starcolor{\pgfmathresult}
+      \draw (\i*1.75ex, 0) node[name=star\i, scorestars, fill=\starcolor]  {};
+   }
+  \end{tikzpicture}%
+}
+
+\setlength\parindent{0pt}
+\pagenumbering{gobble}
+
+\begin{document}
+ 
+\section{Atelier MP2 \hfill Mot de passe 2}
+
+{
+\setlength\arrayrulewidth{2pt}
+
+\begin{minipage}{.55\textwidth}
+  \begin{tabularx}{\textwidth}{|l|X|}
+    \hline
+    Durée                    & 20 minutes \\
+    Organisation des enfants & {\bf Groupes}, Individuel, Collectif \\
+    Nombre d'enfants         & Groupes de 20 \\
+    Niveau visé              & CM1 à CM2 \\
+    \hline
+  \end{tabularx}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \begin{tabularx}{\textwidth}{|l|X|}
+    \hline
+    Ambiance                       & {\bf Calme}, Actif \\
+    Difficulté pour les enfants    & \score{4}{5} \\
+    Complexité de mise en \oe uvre & \score{4}{5} \\
+    Coût de mise en \oe uvre       & 30 euros \\
+    \hline
+  \end{tabularx}
+\end{minipage}
+}
+
+\subsection{Liens avec les autres ateliers}
+
+S'appuie sur aucun autre ateliers
+
+Permet d'enchaîner avec les ateliers de social-engineering
+
+\subsection{Objectif de l'atelier}
+Cet atelier a pour but de faire comprendre que, lors de l'échange de messages, on ne peut pas toujours faire confiance à celui ou celle qui vehicule ce message. Il faut donc dans certains cas, avoir recours à des méthodes de protection des données echangés. (échanges confidentiels)
+
+\subsection{Matériel nécessaire}
+Une paire de petit cadenas et une boîte par petits groupes de réflexion (3/4 élèves)
+
+\subsection{Principe de l'atelier}
+Un message secret doit être envoyé, mais on ne fait pas confiance à la personne qui le transporte. On veut alors le verrouiller dans une boîte sans donner la clef au transporteur.
+\\
+Méthode : 
+L'élève A essaie de faire parvenir un message secret à l'élève B et possède une boîte opaque un message (sur papier) et un cadenas a clefs L'élève B a lui juste un cadenas et une clef.
+Puis l'élève C qui est le transporteur est le seul à pouvoir faire passer la boîte de l'élève A à l'élève B ou inversement. Le but est de faire passer le message sans que l'élève transporteur puisse ouvrir la boîte et lire le message secret
+\\
+Solution:
+L'élève A ferme la boîte avec son cadenas et l'envoie a l'élève B. L'élève B ferme une deuxième fois la boîte avec son cadenas et le refait passer a l'élève A. 
+L'élève A enlève son cadenas à l'aide de sa clef et le refait passer à l'élève B. Enfin l'élève B enlève son propre cadenas et peut ouvrir la boîte et lire le message.
+
+
+\subsection{Déroulement}
+\begin{itemize}
+    \setlength\itemsep{0em}
+    \item Fournir deux cadenas et une boîte opaque à chaque groupe de réflexion.
+    \item Expliquer la problématique de confiance autour de l'élève transporteur.
+    \item Laisser les élèves réfléchir autour de cet atelier.
+    \item Expliquer la solution aux élèves.
+    \item Faire comprendre l'intérêt des solutions de sécurisation des échanges de messages dans les systems modernes (médium non fiable/publique)
+\end{itemize}
+
+\subsubsection{Avant la séance}
+\begin{itemize}
+  \setlength\itemsep{0em}
+  \item Imprimer la fiche
+  \item Amener le matériel dans la salle
+  
+\end{itemize}
+
+\subsubsection{Durant la séance}
+\begin{itemize}
+  \setlength\itemsep{0em}
+  \item Poser les questions d'entrée aux enfants et noter les réponses
+  \item Présenter le contexte (cf. section Objectif de l'atelier)
+  \item Discuter avec les élèves de la confiance qu'ils portent dans les application d'échange de messages aujourd'hui
+  \item Discuter des différents moyens qu'il existe pour envoyer et recevoir des messages et de leurs apparente sécurisation (lettres, mails, sms, appels, applications, voix orale, etc...)
+\end{itemize}
+
+\subsubsection{Après la séance}
+\begin{itemize}
+  \setlength\itemsep{0em}
+  \item Ranger le matériel
+  \item Demander aux enfants ce qu'ils retiennent de cette expérience (le but étant d'ouvrir à la réflexion de l'enfant et à la critique)
+\end{itemize}
+
+\subsection{Questions d'entrée à poser en début d'atelier}
+TODO
+\subsection{Questions de fin à poser en fin d'atelier}
+TODO
+Question + réponse attendue : remarque à faire si trop de réponses éloignées
+
+\subsection{Message à faire passer à la fin}
+TODO
+\end{document}
+
