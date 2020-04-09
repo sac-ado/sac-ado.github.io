@@ -1,0 +1,35 @@
+---------------------------------- MISE EN PAGE --------------------------------------
+
+Je pense à un atelier sur une ou deux pages (oui encore).
+En premier le titre, puis l'ennoncé explicatif, les "scènes de crime" et en dernier un espace pour mettre les "mots de passes eventuels".
+
+---------------------------------- ENNONCE - QUESTIONS --------------------------------------
+
+TODO
+% - ecrire un ennoncé en deux parties : 
+%     * intro sur les mots de passes
+%     * mettre l'élève en position de détective
+% - est-ce qu'il ne faut pas mettre quelques indices ?
+
+---------------------------------- REPONSES --------------------------------------
+
+TODO
+% - penser à la manière d'introduire les indices 
+%     * une carte postale (le nom d'un chien, la date d'anniversaire de sa fille)
+%     * un post it (mot de passe de l'ordi ?)
+%     * une photo de famille (le nom de quelqu'un ?)
+
+
+---------------------------------- SCENES DE CRIMES --------------------------------------
+
+Scène 1
+- vision globale d'un bureau (fauteuil, bureau, lampe, livres, photo, carte postale, ordinateurs...)
+
+Scène 2
+- zoom sur une partie du bureau comprenant au minimum carte postale [indice ICI]
+
+Scène 3
+- zoom sur une autre partie du bureau comprenant au minimum l'ordinateur ouvert avec un post-it [indice ICI]
+
+Scène 4
+- ????????
