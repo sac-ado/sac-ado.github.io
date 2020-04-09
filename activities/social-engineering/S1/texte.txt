@@ -8,8 +8,10 @@ En dessous, on aurait un tableau avec deux lignes :
 
 ---------------------------------- ENNONCE - QUESTIONS --------------------------------------
 
-TODO
-
+%TODO
+%- penser à la manière de le présenter
+%- est-ce qu'on donne des indices ?
+%- trier les mails/sms qu'on garde (y ne a trop pour un cahier)
 
 ---------------------------------- REPONSES --------------------------------------
 
