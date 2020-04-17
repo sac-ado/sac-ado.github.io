@@ -3,7 +3,7 @@
 
 Je pensais à quelquechose sur deux pages : 
 - Page 1 : Le titre, l'ennoncé, la partie 1 dans un "formulaire" [un dessin de "feuille d'enquête"] , les questions ensuite
-- Page 2 : le profil Facebook
+- Page 2 : le profil Facebook [MODIF A VENIR]
 
 --------------------------------- QUESTIONS -------------------------------------------
 
@@ -27,6 +27,7 @@ Partie2 : questions
 - Penses-tu que la personne connaît tous ses ami(e)s facebook ?
 - Quelle est la meilleure (plus sécurisée) des photos de profils parmis celles que l'on peut voir ? Pourquoi ?
 - Penses-tu que Pingu soit le vrai nom d'Alexandre ? Pourquoi ?
+- Qui peut voir les publications de la personne ?
 - Qu'est ce que la dernière publication (celle qu'on ne voit pas entièrement) ? 
   Est-ce que c'est la personne qui a le comtpe qui l'a posté ? 
 - Que penses-tu de la 2ème publication (l'événement) ? Est-ce qu'il y a trop peu/assez/trop d'information ? Pourquoi
@@ -44,5 +45,6 @@ Partie2
 - Non, il y en a trop (112)
 - Celle d'Anne Clerc car on ne la voit pas sur la photo
 - Probablement pas et c'est bien, car on ne peut pas trover facilement son compte Facebook
+- L'événement : "Public" donc tout le monde ; La photo : "Amis seulement"
 - Non, c'est une publicité ! On peut d'ailleurs la supprimer si on le souhaite
 - Il y a trop d'informations ! On connaît l'adresse exacte et on sait que les parents n'y seront pas, c'est dangereux
