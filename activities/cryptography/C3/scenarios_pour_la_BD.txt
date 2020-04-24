@@ -1,0 +1,34 @@
+Je te propose 3 scenarios pour expliquer un peu le fonctionement des boites et des clefs
+
+scenario 1 :
+Bob veux envoyer un message secret a son amie Alice
+Bob ecris son message sur un bout de papier, le met dans une boite et l'envoie à alice (sans cadenas)
+vignette 1 : ecriture du message
+vignette 2 : envoie de la boite par la poste
+vignette 3 : reception du message par alice 
+Questions : Si Bob veux envoyer un message secret à Alice, [prensez-vous/pense-tu] que cette methode est sûr ?
+Explication : Lors du transport par la poste, Eve à pu regarder le message, et le lire. Donc cet envoie est pas securisé dans le sens où une tierce personne a pu lire le message sercé
+
+Scenario 2 :
+Bob ecris son message toujours sur du papier, le met dans le boîte, ferme la boite avec son cadenas et l'envoie à Alice
+vignette 1 : reflexion de Bob (aire pensif) bulle avec des rond pas un V
+vignette 2 : Bob farfouille dans son grenier
+Vignette 3 : mise du cadenas sur la boite (mise en evidence abusive du cadenas)
+Vignette 4 : reception de la boite par Alice?
+Question :  [prensez-vous/pense-tu] que cette nouvelle methode est sûr ?
+Explication : Oui cette methode est sûr, la factrice n'a pas pu lire le message secret de Bob destiné a Alice.
+Vignette 5 : Alice ne peux pas ouvrir la boite a cause du cadenas de Bob
+Question : [prensez-vous/pense-tu] que c'etait vraiment la bonne methode ?
+Explication : Alice ne pouvant pas lire le message non plus, cette methode n'est pas adaptée a l'echange de message, même si le secret est gardé.
+
+Scenario 3:
+Bob envoie la boite vide pour que alice puisse mettre son cadenas dessus
+Vignette 1 : Bob reflechi encore ...
+Vignette 2 : Bob envoie la boite vide 
+Vignette 3 : Alice met son cadenas sur la boite et la renvoie
+Vignette 4 : Bob reçois la boite mais ne peux pas l'ouvrir pour mettre son message dedans.
+Explication : Cette methode ne fonctionne toujours pas, Bob ne peux pas mettre le message dans la boite
+Question : Peux-tu immaginer un scenarion dans lequelle Bob et Alice arrivent à avoir un echange secret ?
+
+Es-ce que on fait une explication de a reponse a la fin du cahier? je pense quand meme qu'une correction est necessaire 
+
