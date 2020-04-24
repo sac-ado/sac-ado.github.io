@@ -1,0 +1,202 @@
+\documentclass[a4paper]{article}
+ 
+\usepackage{lipsum}
+\usepackage[a4paper, total={7in, 9in}]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usepackage[explicit]{titlesec}
+\usepackage{array}
+\usepackage{tabularx}
+
+\titleformat{\section}
+  {\normalfont\LARGE\bfseries}
+  {}
+  {0em}
+  {{\titlerule[2pt]}\\[0.1em]#1}
+  [\vspace{0.2em}{\titlerule[2pt]\vspace{1em}}]
+
+\titleformat{\subsection}
+  {\normalfont\Large\bfseries}
+  {}%{\thesubsection}
+  {0em}%{1em}
+  {#1}
+  [{\titlerule[1.5pt]}\vspace{0.5em}]
+
+\titleformat{\subsubsection}
+  {\normalfont\bfseries}
+  {}%{\thesubsection}
+  {0em}%{1em}
+  {#1}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\newcommand\score[2]{%
+  \pgfmathsetmacro\pgfxa{#1 + 1}%
+  \tikzstyle{scorestars}=[star, star points=5, star point ratio=2.25, draw, inner sep=1.3pt, anchor=outer point 3]%
+  \begin{tikzpicture}[baseline]
+    \foreach \i in {1, ..., #2} {
+      \pgfmathparse{\i<=#1 ? "yellow" : "gray"}
+      \edef\starcolor{\pgfmathresult}
+      \draw (\i*1.75ex, 0) node[name=star\i, scorestars, fill=\starcolor]  {};
+   }
+  \end{tikzpicture}%
+}
+
+\setlength\parindent{0pt}
+\pagenumbering{gobble}
+
+\begin{document}
+ 
+\section{Atelier S2 \hfill Social Engineering 2}
+
+{
+\setlength\arrayrulewidth{2pt}
+
+\begin{minipage}{.55\textwidth}
+  \begin{tabularx}{\textwidth}{|l|X|}
+    \hline
+    Durée                    & 20 minutes \\
+    Organisation des enfants & {\bf Collectif}, Individuel, Groupes \\
+    Nombre d'enfants         & Groupes de 20 \\
+    Niveau visé              & CM1 à CM2 \\
+    \hline
+  \end{tabularx}
+\end{minipage}
+\begin{minipage}{.45\textwidth}
+  \begin{tabularx}{\textwidth}{|l|X|}
+    \hline
+    Ambiance                       & {\bf Actif} \\
+    Difficulté pour les enfants    & \score{2}{5} \\
+    Complexité de mise en \oe uvre & \score{2}{5} \\
+    Coût de mise en \oe uvre       & 0 euro \\
+    \hline
+  \end{tabularx}
+\end{minipage}
+}
+
+\subsection{Liens avec les autres ateliers}
+ 
+Cet atelier couvre les différents thèmes abordés (vie privée, mots de passe, cryptographie et sténographie) sous forme de synthèse.
+
+\subsection{Objectif de l'atelier}
+
+
+
+
+
+
+
+
+
+
+\subsection{Matériel nécessaire}
+
+Pour mettre en place cet atelier, il faut un ordinateur et un vidéo-projecteur.
+
+\subsection{Principe de l'atelier}
+
+\subsection{Déroulement}
+
+\subsubsection{Avant la séance}
+
+\subsubsection{Durant la séance}
+
+\subsubsection{Après la séance}
+
+\subsection{Questions d'entrée à poser en début d'atelier}
+
+\subsection{Questions à poser lors de la discussion}
+
+\subsection{Questions de fin à poser en fin d'atelier}
+
+\subsection{Message à faire passer à la fin}
+
+\subsection{Script}
+
+    \subsubsection{Scène 1}
+    
+        \textit{Camille va à l'école, une séance dans la salle informatique est prévue, pendant laquelle elle consultera ses mails.}
+        
+        Dans un premier temps, Camille doit saisir ses identifiants. Une fois saisis, le navigateur propose de sauvegarder automatiquement ces derniers pour lui en faciliter l'usage. \\
+        
+        CHOIX :
+        \begin{itemize}
+            \item Oui -- game over (expliquer pq)
+            \item Non -- non, on continue
+        \end{itemize}
+        A COMPLETER
+    
+    \subsubsection{Scène 2}
+    
+        \textit{Lorsque Camille consulte ses mails, un mail en particulier attire son attention dont l'objet est "VOUS AVEZ GAGNE UNE TABLETTE !!!"} \\
+        
+        Camille ouvre le mail correspondant et lit : "Cliquez sur le lien pour recevoir sur votre tablette gratuitement !".
+        
+        CHOIX :
+            \begin{itemize}
+                \item Cliquer sur le lien -- pas bien
+                \item Agir -- mettre l'expéditeur en indésirable
+            \end{itemize}
+            A COMPLETER
+        
+    \subsubsection{Scène 3}
+    
+        \textit{Une fois que Camille a consulté ses mails, elle doit laisser allumer l'ordinateur pour son camarade. } \\
+        
+        A quoi doit-elle penser ?
+        \begin{itemize}
+            \item Partir -- pas bien
+            \item Se déconnecter de son compte mail -- explications
+        \end{itemize}
+            A COMPLETER
+            
+    \subsubsection{Scène 4}
+    
+        \textit{En quittant la salle, Camille voit une clé usb par terre et la ramasse.} \\
+        
+        Que fait-elle ?
+        \begin{itemize}
+            \item Elle la branche sur son pc pour voir ce qui est dedans et retrouver son propriétaire -- pas bien
+            \item Elle la donne à l'enseignant --  safe
+        \end{itemize}
+            A COMPLETER
+        
+    \subsubsection{Scène 5}
+        \textit{Après l'école, Camille rentre chez elle et retrouve son chien Pedro. Elle décide ensuite de jouer à un nouveau jeu vidéo en ligne que lui ont conseillée ses amis. Pour cela, elle doit créer un compte et donc un mot de passe.} \\
+        
+        Quel mot de passe choisit-elle ?
+        \begin{itemize}
+            \item PeDRo
+            \item 123456
+            \item Bleu82Paris63
+            \item camille
+        \end{itemize}
+            A COMPLETER
+            
+    \subsubsection{Scène 6}
+        \textit{Après avoir choisi son mot de passe, Camille décide de le noter quelque part pour s'en souvenir.} \\
+        
+        Où écrit-elle le mot de passe ?
+        \begin{itemize}
+            \item sur un post-it qu'elle colle sous le clavier
+            \item dans son téléphone
+            \item dans son cahier de mathématiques
+            \item dans son carnet secret qui est caché et verrouillé avec un petit cadenas
+        \end{itemize}
+            A COMPLETER
+            
+    \subsubsection{Scène 7}
+        \textit{Camille peut enfin jouer au jeu vidéo et lance une partie. Peu de temps après, lolo\_du\_31 souhaite discuter avec elle. Elle ne connaît pas cette personne.} \\
+        
+        Que fait-elle ?
+        \begin{itemize}
+            \item Elle ignore le message et continue à jouer
+            \item Elle répond à lolo\_du\_31
+        \end{itemize}
+            A COMPLETER
+            
+    \subsubsection{Scène 8}
+    
+    SCENE POUR CONCLURE ?
+
+\end{document}
