@@ -1,6 +1,6 @@
 ---------------------------------- MISE EN PAGE --------------------------------------
 
-Je pense que ce serait bien sur une page, ou deux pages si c'est trop serré.
+Je pense que ce serait bien sur une page ou deux pages.
 L'idée est d'avoir le titre, l'énnoncé, et ensuite les mail/sms dispatchés (comme si on les avaient scotchés).
 En dessous, on aurait un tableau avec deux lignes : 
 - numéro des sms/mail [donc nécessité de numéroter chaque mail/sms]
@@ -9,9 +9,17 @@ En dessous, on aurait un tableau avec deux lignes :
 ---------------------------------- ENNONCE - QUESTIONS --------------------------------------
 
 %TODO
-%- penser à la manière de le présenter
-%- est-ce qu'on donne des indices ?
-%- trier les mails/sms qu'on garde (y ne a trop pour un cahier)
+%- enoncé
+%- est-ce qu'on donne des indices[Buggy] ou tout dans la correction ? 
+
+Les Mails que l'on garde :
+- Amazon [fake]
+- Caf [okay]
+
+Les sms que l'on garde : 
+- Message vocal [fake]
+- Le colis1 [fake]
+- La pub H&M [okay]
 
 ---------------------------------- REPONSES --------------------------------------
 
