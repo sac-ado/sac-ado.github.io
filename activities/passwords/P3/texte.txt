@@ -1,31 +1,48 @@
 ---------------------------------- MISE EN PAGE --------------------------------------
 
-Je pense à un atelier sur une ou deux pages (oui encore).
-En premier le titre, puis l'ennoncé explicatif, les "scènes de crime" et en dernier un espace pour mettre les "mots de passes eventuels".
+Je pense à un atelier sur trois pages : 
+  * la première c'est le "cours" sur les mots de passe (l'idée cest que Buggy donne le cours)
+  * la seconde c'est l'ennonce et (eventuellement) la scene principale
+  
+  * la troisième c'est les autres scènes 
+  
+Idée -> pour alléger le texte on peut mettre l'ennonce + parti2 sur une page, puis les illu, puis la partie 2
 
 ---------------------------------- ENNONCE - QUESTIONS --------------------------------------
 
-TODO
-% - ecrire un ennoncé en deux parties : 
-%     * 1 - intro sur les mots de passes
-%     * 2 - mettre l'élève en position de détective
+***Page 1 - Le cours : "Apprends à construire un mot de passe avec Buggy"
 
-Ennoncé
-1 - 
+Pas facile de chosir un mot de passe efficace... Sur cette page, Buggy va te donner des conseils pour tes mots de passe soient à la fois facile à retenir et efficace !
 
-2 - 
+a - Pour le retenir, on va utiliser des que tu connais. Fais une liste de 6 mots de 3 ou 4 syllabes
+  les mots de Buggy : Internet, Arc-En-ciel, Parapluie, Chocolat, Pantalon, Pyjama
+
+b - Pour qu'il soit efficace, on va choisir 3 des mots qui n'ont pas de liens entre eux.
+  les mots de Buggy : Pyjama, Chocolat, Internet
+
+c - Pour qu'il soit encore plus fort, on va ajouter un chiffre (ton porte bonheur par exemple) et un symbole
+  le chiffre de Buggy : 3
+  le symbole de Buggy : ?
+
+d - Maintenant on peut les mélanger et ce sera bon ! [tu peux aussi jouer avec les minuscules et majuscules comme Buggy]
+  le mot de passe de Buggy : Chocolat?InterNet3PyJama
+  
+e - Attention! N'utilise pas le mot de passe que tu viens de créer ou celui de Buggy ! Par contre, tu peux utiliser cette méthode dès que tu dois trouver un mot de passe :)
+
+***Ennoncé
 Jeudi dernier, des pirates informatiques ont attaqué les ordinateurs de l'entreprise Andoif. Les policiers ont récupéré plusieurs indices dont une liste de mots de passe appartenant sûrement aux pirates. Antony, un policier, suspecte Mr. XXX et te recrute pour enquêter avec lui !
 
-Partie 1
+***Partie 1
 Mr. XXX a quitté son bureau sans fermé la porte. A partir des éléments présent dans son bureau, saurais-tu dire si certains de ces mots de passe sont probablement les siens ?
 - 1 : JaQues72
 - 2 : aPizRm!alPx56g
 - 3 : Pedro2020
 - 4 : rGldic620ncs64
 - 5 : cOtTaMArie
+- 6 : Montgolfiere31PedroCafe
 
-Partie 2
-- On a trouvé un autre mot de passe de Mr. XXX : Cam24Dro36SePh
+***Partie 2
+- On a trouvé un autre mot de passe de Mr. XXX : Cam24Dro36LonSePh
 - Ce mot de passe est plus facile à mémoriser qu'il n'y apraît. Et oui, il a été construit à partir de données personnelles de Mr. XXX !
 - Sauras-tu trouver les données cachées dans ce mot de passe ? [5 données à trouver]
 
@@ -38,16 +55,18 @@ TODO
 %     * une photo de famille (le nom des personnes)
 
 Partie 1
-- Les siens sont le 2, le 3 et le 5
+- Les siens sont le 2, le 3, le 5 et le 6
 - Le 2 est sr le post-it
 - Le 3 est le mélange du nom de son chien et de l'année en cours (carte postale)
 - Le 5 est le mélange de son nom de famille (Cotta - carte postale) et du nom de la grand-mère (photo de famille)
+- Le 6 est une suite d'information : montgolfiere (Poster), 31 (Toulouse - carte postale), Pedro (carte postale), Cafe (bureau)
 
 Partie 2
 - Camille : la maman sur la photo de famille
 - 24 : la date sur la carte postale
 - Pedro : le nom du chien (cf carte postale)
 - 36 : le numéro de la rue (cf carte postale)
+- London : la ville sur le poster
 - Joseph : le grand-père sur la photo de famille
 
 ---------------------------------- SCENES DE CRIMES --------------------------------------
@@ -56,13 +75,16 @@ Scène 1
 - vision globale du bureau
 
 Scène 2
-- zoom sur la carte postale [indice ICI]
+- zoom sur la carte postale [indices ICI : Pedro, date, Nom, Adresse]
 
 Scène 3
-- zoom sur le post-it [indice ICI]
+- zoom sur le post-it [indices ICI : mot de passe]
 
 Scène 4
-- zoom sur la photo de famill [indice ICI]
+- zoom sur la photo de famill [indices ICI : nom des personnes]
 
 Scène 5
-- zoom sur le poster sur le mur [indice ICI]
+- zoom sur le poster sur le mur [indices ICI : London, montgolfière]
+
+Scène 6 [TODO]
+- les livres et la plante [noms]
