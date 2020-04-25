@@ -7,29 +7,62 @@ En premier le titre, puis l'ennoncé explicatif, les "scènes de crime" et en de
 
 TODO
 % - ecrire un ennoncé en deux parties : 
-%     * intro sur les mots de passes
-%     * mettre l'élève en position de détective
-% - est-ce qu'il ne faut pas mettre quelques indices ?
+%     * 1 - intro sur les mots de passes
+%     * 2 - mettre l'élève en position de détective
+
+Ennoncé
+1 - 
+
+2 - 
+Jeudi dernier, des pirates informatiques ont attaqué les ordinateurs de l'entreprise Andoif. Les policiers ont récupéré plusieurs indices dont une liste de mots de passe appartenant sûrement aux pirates. Antony, un policier, suspecte Mr. XXX et te recrute pour enquêter avec lui !
+
+Partie 1
+Mr. XXX a quitté son bureau sans fermé la porte. A partir des éléments présent dans son bureau, saurais-tu dire si certains de ces mots de passe sont probablement les siens ?
+- 1 : JaQues72
+- 2 : aPizRm!alPx56g
+- 3 : Pedro2020
+- 4 : rGldic620ncs64
+- 5 : cOtTaMArie
+
+Partie 2
+- On a trouvé un autre mot de passe de Mr. XXX : Cam24Dro36SePh
+- Ce mot de passe est plus facile à mémoriser qu'il n'y apraît. Et oui, il a été construit à partir de données personnelles de Mr. XXX !
+- Sauras-tu trouver les données cachées dans ce mot de passe ? [5 données à trouver]
 
 ---------------------------------- REPONSES --------------------------------------
 
 TODO
 % - penser à la manière d'introduire les indices 
-%     * une carte postale (le nom d'un chien, la date d'anniversaire de sa fille)
+%     * une carte postale (le nom d'un chien, sa date d'anniversaire)
 %     * un post it (mot de passe de l'ordi ?)
-%     * une photo de famille (le nom de quelqu'un ?)
+%     * une photo de famille (le nom des personnes)
 
+Partie 1
+- Les siens sont le 2, le 3 et le 5
+- Le 2 est sr le post-it
+- Le 3 est le mélange du nom de son chien et de l'année en cours (carte postale)
+- Le 5 est le mélange de son nom de famille (Cotta - carte postale) et du nom de la grand-mère (photo de famille)
+
+Partie 2
+- Camille : la maman sur la photo de famille
+- 24 : la date sur la carte postale
+- Pedro : le nom du chien (cf carte postale)
+- 36 : le numéro de la rue (cf carte postale)
+- Joseph : le grand-père sur la photo de famille
 
 ---------------------------------- SCENES DE CRIMES --------------------------------------
 
 Scène 1
-- vision globale d'un bureau (fauteuil, bureau, lampe, livres, photo, carte postale, ordinateurs...)
+- vision globale du bureau
 
 Scène 2
-- zoom sur une partie du bureau comprenant au minimum carte postale [indice ICI]
+- zoom sur la carte postale [indice ICI]
 
 Scène 3
-- zoom sur une autre partie du bureau comprenant au minimum l'ordinateur ouvert avec un post-it [indice ICI]
+- zoom sur le post-it [indice ICI]
 
 Scène 4
-- ????????
+- zoom sur la photo de famill [indice ICI]
+
+Scène 5
+- zoom sur le poster sur le mur [indice ICI]
