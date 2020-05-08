@@ -14,7 +14,7 @@ En dessous, on aurait un tableau avec deux lignes :
 
 Les Mails que l'on garde :
 - Amazon [fake]
-- Caf [okay]
+- Archipel [okay]
 
 Les sms que l'on garde : 
 - Message vocal [fake]
