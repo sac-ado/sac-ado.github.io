@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      
+    <title>AteliersLien</title>
+      
+    <style>
+        
+        /* Arrondi des blocs ateliers et grossissement  */
+        div.round{
+            /* height : same-as-width; */
+            border-radius: 30px;
+            scale : 0.9;
+        }
+        div.round:hover{
+            scale : 1.0;
+        }
+        
+        
+        /* Apparition de la description */
+        .description {
+            display:none;
+        }
+        .round:hover .description {
+            display:block;
+        }
+        
+        .style {
+            display:block;
+        }
+        .round:hover .style {
+            display: none;
+        }
+        
+        /* Lien sans coloration bleue */
+        .lien {
+            text-decoration: none; 
+            background-color: none; 
+            color :black;
+        }
+        .lien:hover {
+            text-decoration: none; 
+            background-color: none; 
+            color :black;
+        }
+        
+        svg {
+            display:block;
+            margin: auto;
+        }
+        
+        .tooltip {
+            position: fixed;
+        }
+        
+    </style>
+      
+  </head>
+  <body>
+      
+    <div class="container">
+        
+        <!-- HEADER NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">SACAdo</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="../index.html"> Accueil <span class="sr-only">(current)</span></a>
+              <div class="dropdown">
+                  <a class="nav-item nav-link" type="button" id="dropdownMenu" data-toggle="dropdown" > Ateliers
+                    <i class="fa fa-caret-down"></i>
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                      <a class="dropdown-item" href="./ateliers1.html">Vie Privée</a>
+                      <a class="dropdown-item" href="./ateliers2.html">Mots de passe</a>
+                      <a class="dropdown-item" href="./ateliers3.html">Cryptographie</a>
+                      <a class="dropdown-item" href="./ateliers4.html">Social Engineering</a>
+                      <a class="dropdown-item" href="./ateliersLien.html">Liens entre les ateliers</a>
+                    </div>
+              </div>
+              <a class="nav-item nav-link" href="./apropos.html">A propos de SACAdo</a>
+            </div>
+          </div>
+        </nav>
+        
+        
+        <!-- CONTENT -->
+        
+        <div class="container shadow pb-3 mt-4">
+            <div class="row py-3">
+                <div class="col-1"></div>
+                <div class="col-10 mx-2">
+                    <div class="row">
+                        <h1> Liens entre les différents ateliers </h1>
+                        <div> 
+                            <p> Plusieurs enchaînements d'ateliers sont possibles. Cependant, il est préférable de faire certains ateliers avant dautres. </p>
+                            <p> Afin de vous aider dans vos choix, vous trouverez ci-dessous un schéma représentant les liens entre les différents ateliers. Les flèches pleines représentent la nécessité d'effectuer un atelier avant un autre ; tandis que la flèche en pointillé indique simplement qu'il est conseillé de faire un atelier avant un autre.</p>
+                            <p> Sur la gauche, vous trouverez les liens entre les différents thèmes et, sur la droite, les liens entre les différents ateliers.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- DEBUT DU SCHEMA -->
+                    <div class="row pt-3 col-container shadow"> <!--  d-flex justify-content-around -->
+                        <!-- <figure class="border m-3"> -->
+                            <svg viewBox="0 0 800 630"  zoomAndPad="disable" width="747px" height="627px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <image xlink:href="./images/Schema_Lien_Ateliers.jpg" >
+                                </image>
+                                <!-- vie privee -->
+                                <a class="tooltip" container="body" xlink:href="./ateliers1.html" data-toggle="tooltip" title="vie privée"> <!-- NE FONCTIONNE PAS -->
+                                    <rect x="49" y="50" fill="#fff" opacity="0.5" width="105" height="75" />
+                                </a> 
+                                <a class="tooltip" xlink:href="./ateliers1.html">
+                                    <rect x="285" y="50" fill="#fff" opacity="0.5" width="105" height="75" />
+                                </a> 
+                                <a class="tooltip" xlink:href="./ateliers1.html">
+                                    <rect x="537" y="0" fill="#fff" opacity="0.5" width="105" height="75" />
+                                </a> 
+                                <a class="tooltip" xlink:href="./ateliers1.html">
+                                    <rect x="537" y="100" fill="#fff" opacity="0.5" width="105" height="75" />
+                                </a> 
+                                <!-- mot de passe -->
+                                <a class="tooltip" xlink:href="./ateliers2.html">
+                                    <rect x="48" y="240" fill="#fff" opacity="0.5" width="105" height="75" />
+                                </a> 
+                                <a class="tooltip" xlink:href="./ateliers2.html">
+                                    <rect x="285" y="240" fill="#fff" opacity="0.5" width="105" height="75" />
+                                </a> 
+                                <a class="tooltip" xlink:href="./ateliers2.html">
+                                    <rect x="537" y="240" fill="#fff" opacity="0.5" width="105" height="75" />
+                                </a> 
+                                <!-- cryptographie et steganographie -->
+                                <a class="tooltip" xlink:href="./ateliers3.html">
+                                    <rect x="47" y="399" fill="#fff" opacity="0.5" width="105" height="75" />
+                                </a> 
+                                <a class="tooltip" xlink:href="./ateliers3.html">
+                                    <rect x="284" y="400" fill="#fff" opacity="0.5" width="105" height="75" />
+                                </a> 
+                                <a class="tooltip" xlink:href="./ateliers3.html">
+                                    <rect x="467" y="399" fill="#fff" opacity="0.5" width="105" height="75" />
+                                </a> 
+                                <a class="tooltip" xlink:href="./ateliers3.html">
+                                    <rect x="642" y="400" fill="#fff" opacity="0.5" width="105" height="75" />
+                                </a> 
+                                <!-- social engineering -->
+                                <a class="tooltip" xlink:href="./ateliers4.html">
+                                    <rect x="48" y="554" fill="#fff" opacity="0.5" width="105" height="75" />
+                                </a> 
+                                <a class="tooltip" xlink:href="./ateliers4.html">
+                                    <rect x="285" y="554" fill="#fff" opacity="0.5" width="105" height="75" />
+                                </a> 
+                                <a class="tooltip" xlink:href="./ateliers4.html">
+                                    <rect x="538" y="555" fill="#fff" opacity="0.5" width="105" height="75" />
+                                </a> 
+                                
+                            </svg>
+                        <!-- </figure> -->
+                    </div>
+                    <!-- FIN DU SCHEMA -->
+                    
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+        
+        
+        <!-- FOOTER -->
+        
+        
+    <div class="container">
+        <footer class="pt-4 my-md-5 pt-md-5 border-top container" > <!-- fixed-bottom pour toujours en bas -->
+            <div class="row">
+                <div class="col-6 col-md">
+                    <img src="./images/logo2020.PNG" class="img-fluid" alt="INSA Toulouse Logo" >
+                    <small class="d-block mb-3 text-muted"> copyright 2020 </small>
+                </div>
+                <div class="col-3 col-md">
+                    Contact
+                </div>
+                <div class="col-3 col-md">
+                    Plan du site
+                </div>
+                <div class="col-3 col-md">
+                    Mentions Légales
+                </div>
+            </div>
+        </footer>
+    </div>
+        
+    </div>
+    
+  </body>
+</html>
