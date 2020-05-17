@@ -67,6 +67,17 @@
             position: fixed;
         }
         
+        /* navbar fond */
+        .test-fond {
+            background-image: url(images/fond_test.png);
+            background-size : 70px 20px;
+            background-repeat: no-repeat;
+            background-position: 0px 10px;
+            /* border-color :aqua;
+            border-style: double;
+            border : 1px; */
+        }
+        
     </style>
       
   </head>
@@ -76,7 +87,7 @@
         
         <!-- HEADER NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">SACAdo</a>
+          <a class="navbar-brand test-fond" href="#">SACAdo</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -111,14 +122,14 @@
                         <h1> Liens entre les différents ateliers </h1>
                         <div> 
                             <p> Plusieurs enchaînements d'ateliers sont possibles. Cependant, il est préférable de faire certains ateliers avant dautres. </p>
-                            <p> Afin de vous aider dans vos choix, vous trouverez ci-dessous un schéma représentant les liens entre les différents ateliers. Les flèches pleines représentent la nécessité d'effectuer un atelier avant un autre ; tandis que la flèche en pointillé indique simplement qu'il est conseillé de faire un atelier avant un autre.</p>
-                            <p> Sur la gauche, vous trouverez les liens entre les différents thèmes et, sur la droite, les liens entre les différents ateliers.
+                            <p> Afin de vous aider dans vos choix, vous trouverez ci-dessous un schéma représentant les liens entre les différents ateliers. Vous n'êtes pas obligé de suivre toutes les indications </p>
+                            <p> La flèche du milieu indique l'ordre conseillé entre les différents thèmes ; les autres flèches indiquent les liens entre les ateliers d'un même thèmes.
                             </p>
                         </div>
                     </div>
                     
                     <!-- DEBUT DU SCHEMA -->
-                    <div class="row pt-3 col-container shadow"> <!--  d-flex justify-content-around -->
+                    <div class="row pt-3 col-container shadow text-justify"> <!--  d-flex justify-content-around -->
                         <!-- <figure class="border m-3"> -->
                             <svg viewBox="-10 0 1000 440"  zoomAndPad="disable" width="971px" height="419px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <image xlink:href="./images/liens_ateliers.png" >
