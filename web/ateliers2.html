@@ -17,6 +17,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
       
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      
     <title>AteliersPWD</title>
       
     <style>
@@ -68,6 +70,14 @@
             border : 1px; */
         }
         
+        /* Tooltip color */
+        .monTooltip{
+            color : black;
+        }
+        .monTooltip:hover{
+            color:black;
+        }
+        
     </style>
       
   </head>
@@ -114,38 +124,38 @@
                         <div>
                             <p> A quoi sert un mot de passe ? Quelles sont les caractéristiques d'un mot de passe efficace ? Comment en construire un ? Comment faire pour m'en souvenir ? </p>
                             <p> Au travers de ces ateliers, les enfants apprendront comment créer et utiliser un mot de passe pour protéger leurs données. </p>
-                            <p> Pour télécharger la page recap de ce thème, <a href="ateliers/Password_Recap.pdf" download> cliquez ici </a> </p>
+                            <p> Pour télécharger la <a class ="monTooltip" href=# data-toggle="tooltip" title="Un résumé des notions abordées">page recap </a> de ce thème, <a href="ateliers/Password_Recap.pdf" download> cliquez ici </a> </p>
                         </div>
                     </div>
                     
                     <!-- DEBUT DES BLOCS D'ATELIERS -->
                     <div class="row text-center pt-3 col-container">
-                        <div class="col-lg col-md-6"> 
-                            <div class="shadow round mx-2">
+                        <div class="col-lg-4 col-md-6"> 
+                            <div class="shadow round mx-2 mb-3">
                                 <a class="lien" href="./ateliers/P1.pdf" download>
                                     <div class="py-2 pt-3 px-3"> <h5> P1 - Construire un mot de passe </h5> </div>
                                     <div class="py-2"> <i class="fa fa-lock" style="font-size:100px"></i> </div>
-                                    <div class="py-2 pb-3 description"> description rapide </div>
+                                    <div class="p-2 pb-3 description"> Une méthode pour construire un mot de passe efficace </div>
                                     <div class="py-2 pb-3 px-3 style"> </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg col-md-6"> 
-                            <div class="shadow round mx-2">
+                        <div class="col-lg-4 col-md-6"> 
+                            <div class="shadow round mx-2 mb-3">
                                 <a class="lien" href="./ateliers/P2.pdf" download>
                                     <div class="py-2 pt-3 px-3"> <h5> P2 - Escape Game </h5> <br> </div>
                                     <div class="py-2"> <i class="fa fa-door-closed" style="font-size:100px"></i> </div>
-                                    <div class="py-2 pb-3 description"> description rapide </div>
+                                    <div class="p-2 pb-3 description">  Un jeu pour comprendre les mauvaises habitudes à ne pas avoir </div>
                                     <div class="py-2 pb-3 px-3 style"> </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg col-md-6 "> 
-                            <div class="shadow round mx-2">
+                        <div class="col-lg-4 col-md-6"> 
+                            <div class="shadow round mx-2 mb-3">
                                 <a class="lien" href="#">
                                     <div class="py-2 pt-3 px-3"> <h5> P3 - A venir </h5> <br> </div>
                                     <div class="py-2"> <i class="fa fa-question" style="font-size:100px"></i> </div>
-                                    <div class="py-2 pb-3 description"> description rapide </div>
+                                    <div class="p-2 pb-3 description"> Bientôt disponible </div>
                                     <div class="py-2 pb-3 px-3 style"> </div>
                                 </a>
                             </div>
@@ -183,6 +193,13 @@
     </div>
         
     </div>
-    
+      
+    <!-- Tooltip style -->
+      <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+      </script>
+      
   </body>
 </html>
