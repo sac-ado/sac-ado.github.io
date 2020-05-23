@@ -51,13 +51,9 @@
         /* Lien sans coloration bleue */
         .lien {
             text-decoration: none; 
-            background-color: none; 
+            /* background-color: none; */
             color :black;
         }
-        .lien:hover {
-            text-decoration: none; 
-            background-color: none; 
-            color :black;
         }
         
         /* navbar fond */
@@ -70,11 +66,13 @@
             border-style: double;
             border : 1px; */
         }
-    
         
         .nav-item:hover {
              cursor: pointer;
          }
+        .balise-div:hover{
+            cursor:pointer;
+        }
         
     </style>
       
@@ -167,7 +165,7 @@
                     <!-- DEBUT COLLAPSE -->
                     <div class="mb-3">
                         <div class="row col-container">
-                            <div class="shadow p-3 btn titre-desc col-lg-6" type="button" data-toggle="collapse" data-target="#desc-detail-VP0">
+                            <div class="shadow p-3 btn titre-desc col-lg-6 balise-div" data-toggle="collapse" data-target="#desc-detail-VP0">
                                 <h4 class="text-left">
                                     <i class="fa fa-chevron-circle-down"></i>
                                     VP1 - Qu'est-ce qu'une donnée ? 
@@ -197,7 +195,7 @@
                         </div>
                     </div>
                     <div class="row text-left col-container p">
-                        <div class="shadow p-3 btn titre-desc col-lg-6" type="button" data-toggle="collapse" data-target="#desc-detail-VP1">
+                        <div class="shadow p-3 btn titre-desc col-lg-6 balise-div" data-toggle="collapse" data-target="#desc-detail-VP1">
                             <h4 class="text-left">
                                 <i class="fa fa-chevron-circle-down"></i> 
                                 VP2 - Détective Facebook 
