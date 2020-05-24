@@ -38,6 +38,18 @@
              cursor: pointer;
          }
         
+        /* Lien sans coloration bleue */
+        .lien {
+            text-decoration: none; 
+            /* background-color: none; */
+            color :black;
+        }
+        .lien:hover {
+            text-decoration: none; 
+            /* background-color: none; */
+            color :black;
+        } 
+        
     </style>
     
   </head>
@@ -82,7 +94,7 @@
                     <h1 class="pb-3"> Qui se cache derrière SACAdo ? </h1>
                     <div class="row py-3">
                         <div class="col-lg-4 col-md-3 col-12">
-                            <img class="img-fluid" src="images/thinking_rog2.png" alt="Responsive image">
+                            <img class="img-fluid" src="images/thinking_rog2.png" alt="Buggy a propos">
                         </div>
                         <div class="col-lg-8 col-md-9">
                             <p> Les ateliers ont été conçu dans le cadre du Projet d'Initiation à la Recherche de 4ème année à l'INSA de Toulouse. L'équipe SACAdo est composée de cinq étudiants en spécialité Informatique et Réseaux. </p>
@@ -105,13 +117,13 @@
                     <small class="d-block mb-3 text-muted"> copyright 2020 </small>
                 </div>
                 <div class="col-3 col-md">
-                    Contact
+                    <a class="lien" href="mailto:sacado.insa@gmail.com"> Contact </a>
                 </div>
                 <div class="col-3 col-md">
                     Plan du site
                 </div>
                 <div class="col-3 col-md">
-                    Mentions Légales
+                    <a class="lien" href="mentions.html"> Mentions Légales </a>
                 </div>
             </div>
         </footer>
