@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      
+    <!-- fav icon -->
+    <link rel="icon" type="image/png" href="./images/favi-buggy.ico" />
+      
+    <title> Cahier d'ateliers </title>
+    
+     <style>
+    
+        .test-fond {
+            background-image: url(images/fond_test.png);
+            background-size : 70px 20px;
+            background-repeat: no-repeat;
+            background-position: 0px 10px;
+            /* border-color :aqua;
+            border-style: double;
+            border : 1px; */
+        }
+         
+        .nav-item:hover {
+             cursor: pointer;
+         }
+        
+        /* Lien sans coloration bleue */
+        .lien {
+            text-decoration: none; 
+            /* background-color: none; */
+            color :black;
+        }
+        .lien:hover {
+            text-decoration: none; 
+            /* background-color: none; */
+            color :black;
+        } 
+        
+    </style>
+    
+  </head>
+  <body>
+      
+    <div class="container">
+        
+        <!-- HEADER NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand test-fond" href="./home.html">SACAdo</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="./home.html"> Accueil <span class="sr-only">(current)</span></a>
+              <div class="dropdown">
+                  <a class="nav-item nav-link" id="dropdownMenu" data-toggle="dropdown" > Ateliers
+                    <i class="fa fa-caret-down"></i>
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                      <a class="dropdown-item" href="./ateliers1.html">Vie Privée</a>
+                      <a class="dropdown-item" href="./ateliers2.html">Mots de passe</a>
+                      <a class="dropdown-item" href="./ateliers3.html">Cryptographie</a>
+                      <a class="dropdown-item" href="./ateliers4.html">Social Engineering</a>
+                      <a class="dropdown-item" href="./ateliersLien.html">Liens entre les ateliers</a>
+                    </div>
+              </div>
+              <a class="nav-item nav-link" href="./cahier.html"> Cahier d'ateliers </a>
+              <a class="nav-item nav-link" href="./apropos.html">A propos de SACAdo</a>
+            </div>
+          </div>
+        </nav>
+
+        
+        
+        <!-- CONTENT -->
+        
+        <div class="container shadow mt-4 text-justify">
+            <div class="row py-3">
+                <div class="col-1"></div>
+                <div class="col-10 mx-2">
+                    <h1 class="pb-3"> Le cahier des petits ateliers cybersécurité </h1>
+                    <div class="row py-3">
+                        <div class="col-lg-4 col-md-3 col-12 pb-2">
+                            <img class="img-fluid" src="./images/cahier_atelier.jpg" alt="cahier ateliers cybersecurite">
+                        </div>
+                        <div class="col-lg-8 col-md-9">
+                            <h5> Présentation du cahier </h5>
+                            <p> En plus des ateliers, nous avons réalisé un cahier de 7 activités. Les activités sont des adaptations des ateliers disponibles sur ce site. La différence majeure est que l'enfant à la possibilité d'effectuer les activités en autonomie. </p>
+                            <p> Ce cahier est disponible en deux versions : une version classique ainsi qu'une version plus adaptée pour les personnes dysléxique (utilisation d'une police de caractère destinée à faciliter la lecture pour les dysléxiques) </p>
+                            <h5> Téléchargement </h5>
+                            <p> Pour télécharger la version classique du cahier <a href="./ateliers/Cahier_Ateliers_Cybersecurite.pdf" target="_blank"> cliquez ici </a>. <br>
+                            Pour télécharger la version adaptée aux personnes dyslexiques <a href="./ateliers/Cahier_Ateliers_Cybersecurite_versionDYS.pdf" target="_blank"> cliquez ici </a>. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+        
+        
+        <!-- FOOTER -->
+        
+    <div class="container">
+        <footer class="pt-4 my-md-5 pt-md-5 border-top container" > <!-- fixed-bottom pour toujours en bas -->
+            <div class="row">
+                <div class="col-6 col-md">
+                    <img src="./images/logo2020.PNG" class="img-fluid" alt="INSA Toulouse Logo" >
+                </div>
+                <div class="col-3 col-md">
+                    <a class="lien" href="mailto:sacado.insa@gmail.com"> Contact </a>
+                </div>
+                <div class="col-3 col-md">
+                    <a class="lien" href="plan.html"> Plan du site </a>
+                </div>
+                <div class="col-3 col-md">
+                    <a class="lien" href="mentions.html"> Mentions Légales </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    </div>
+  </body>
+</html>
